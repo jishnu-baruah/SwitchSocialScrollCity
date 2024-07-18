@@ -1,0 +1,73 @@
+# Node.js dependencies
+backend/node_modules/
+frontend/node_modules/
+
+# Log files
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Build output
+/dist
+/build
+
+# Compiled files
+*.out
+*.o
+*.a
+*.so
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Solidity artifacts and cache
+*.json
+*.yml
+
+# Assets (images, etc.)
+/assets/
+
+# Test coverage reports
+coverage/
+*.lcov
+
+# npm package lock file
+package-lock.json
+
+# Yarn lock file
+yarn.lock
+
+# Docker-related files
+docker-compose.override.yml
+docker-compose.*.yml
+
+# Native messaging host files (if using Chrome extension)
+*.pid
+*.log
+native-messaging-host/
+
+# Build artifacts
+*.tgz
+*.zip
+*.tar.gz
+
+# Expo-related files (if using Expo)
+.expo/
+.expo-shared/
+*.expo.js
+
+# React Native packager cache
+.packager-cache/
+*.xcworkspace
+*.pbxuser
+*.pbxuser
+*.xcuserstate
